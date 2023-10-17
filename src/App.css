@@ -19,7 +19,7 @@
 
 p {
   font-family: EMFonts;
-  font-size: 200px;
+  font-size: 150px;
   color: whitesmoke;
   
 }
@@ -39,17 +39,18 @@ a {
 }
 
 a:link {
-  color: whitesmoke;
+  color: #65a2b1;
 }
 
 a:hover {
-  color: whitesmoke;
+  color: #65a2b1;
+  opacity: 50%;
 }
 
 a:focus {
-  color: whitesmoke;
+  color: #65a2b1;
 }
 
 a:before {
-  color: whitesmoke;
+  color: #65a2b1;
 }
