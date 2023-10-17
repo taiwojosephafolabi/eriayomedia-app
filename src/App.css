@@ -11,7 +11,6 @@
 .App {
   text-align: center;
   max-height: auto;
-  padding: 10% 0;
 }
 
 #root {
@@ -22,7 +21,12 @@ p {
   font-family: EMFonts;
   font-size: 200px;
   color: whitesmoke;
+  
+}
+
+img {
   margin-bottom: 10px;
+  height: 200px;
 }
 
 a {
@@ -36,7 +40,6 @@ a {
 
 a:link {
   color: whitesmoke;
-  padding: 20px;
 }
 
 a:hover {
