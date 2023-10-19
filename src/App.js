@@ -7,7 +7,7 @@ function App() {
       <header>
         <img src={logo} alt='Ẹríayọ̀ Media - Logo' />
       </header>
-      <p>SITE COMING SOON</p>
+      <h1>SITE<br/>COMING SOON</h1>
       
       <a
         className='App-link'
