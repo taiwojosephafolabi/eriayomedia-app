@@ -7,15 +7,18 @@ function App() {
       <header>
         <img src={logo} alt='Ẹríayọ̀ Media - Logo' />
       </header>
-      <p>SITE COMING SOON</p>
-      
+      <h1>
+        SITE
+        <br />
+        COMING SOON
+      </h1>
       <a
         className='App-link'
         href='https://www.instagram.com/eriayomedia'
         target='_blank'
         rel='noopener noreferrer'
       >
-       Instagram
+        Instagram
       </a>
     </div>
   );

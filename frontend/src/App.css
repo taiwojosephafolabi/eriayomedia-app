@@ -1,11 +1,22 @@
-* {
-  background-color: #65a2b1;
+@font-face {
+  font-family: 'Black Mango';
+  src: url('./fonts/BlackMango-Regular.ttf');
 }
 
 @font-face {
-  font-family: EMFonts;
-  src: url('./fonts/BlackMango-Regular.ttf'),
-    url('./fonts/Helvetica-Medium-Condensed.otf');
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica-Medium-Condensed.otf');
+}
+
+/* Update font-face with this hierarchy
+embedded-opentype (eot)
+woff2
+woff
+ttf
+svg */
+
+* {
+  background-color: #65a2b1;
 }
 
 .App {
@@ -13,25 +24,24 @@
   max-height: auto;
 }
 
-#root {
-  background-color: #65a2b1;
-}
-
-p {
-  font-family: EMFonts;
-  font-size: 150px;
+h1 {
+  margin-top: 0;
+  font-family: 'Black Mango';
+  font-size: 6rem;
   color: whitesmoke;
-  
+  font-weight: normal;
 }
 
 img {
   margin-bottom: 10px;
   height: 200px;
+  pointer-events: none;
 }
 
 a {
+  font-family: 'Helvetica';
   color: #65a2b1;
-  background: white;
+  background: whitesmoke;
   padding: 20px;
   border: #65a2b1 solid 2px;
   border-style: outset;
@@ -53,4 +63,10 @@ a:focus {
 
 a:before {
   color: #65a2b1;
+}
+
+@media only screen and (max-width: 768px) {
+  [h1] {
+    font-size: 3rem;
+  }
 }
