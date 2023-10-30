@@ -34,7 +34,7 @@ h1 {
 
 img {
   margin-bottom: 10px;
-  height: 200px;
+  height: 230px;
   pointer-events: none;
 }
 
@@ -43,6 +43,7 @@ a {
   color: #65a2b1;
   background: whitesmoke;
   padding: 20px;
+  margin: 10px;
   border: #65a2b1 solid 2px;
   border-style: outset;
   border-radius: 10px;
@@ -63,6 +64,25 @@ a:focus {
 
 a:before {
   color: #65a2b1;
+}
+
+input {
+  font-family: 'Helvetica';
+  padding: 10px;
+  margin: 10px;
+  color: #65a2b1;
+  [placeholder] { color: #65a2b1 }
+  background-color: whitesmoke;
+}
+
+button {
+  font-family: 'Helvetica';
+  color: #65a2b1;
+  background: whitesmoke;
+  padding: 10px;
+  border: #65a2b1 solid 2px;
+  border-style: outset;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 768px) {
