@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/landingPage';
-import Enquiry from './pages/enquiry';
+import './App.css';
+import LandingPage from './pages/landingPage.js';
+import Enquiry from './pages/enquiry.js';
 
 function App() {
   return (
