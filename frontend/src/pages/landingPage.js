@@ -1,13 +1,20 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 import '../App.css';
-import logo from '../images/Ẹríayọ̀-Media-Logo.png';
 
 function App() {
+//   {backToLandingPage,
+//   showHomePage,
+//   showEnquiryPage,
+//   showAboutPage}
   return (
     <div className='App'>
-      <header>
-        <img src={logo} alt='Ẹríayọ̀ Media - Logo' />
-      </header>
+      <Navbar
+      // backToLandingPage={backToLandingPage}
+      // showHomePage={showHomePage}
+      // showEnquiryPage={showEnquiryPage}
+      // showAboutPage={showAboutPage}
+      />
       <h1>
         SITE
         <br />

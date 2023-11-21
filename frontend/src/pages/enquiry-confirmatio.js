@@ -22,7 +22,7 @@ function enquiryForm() {
       <form
         class='form'
         action='https://formsubmit.co/info@eriayomedia.com'
-        method='POST'
+        method="POST"
       >
         <input type='hidden' name='_subject' value='New Email!' />
         <input
@@ -56,7 +56,7 @@ function enquiryForm() {
         <br />
         <button type='submit'>Send</button>
         <input type='hidden' name='_captcha' value='false' />
-        <input type='hidden' name='_next' value='enquiry-confirmation.js' />
+        <input type='hidden' name='_next' value='./enquiry-confirmation' />
       </form>
     </div>
   );

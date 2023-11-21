@@ -1,19 +1,13 @@
 @font-face {
   font-family: 'Black Mango';
-  src: url('./fonts/BlackMango-Regular.ttf');
+  src: url('./fonts/BlackMango-Regular.otf'),
+    url('./fonts/BlackMango-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Helvetica';
   src: url('./fonts/Helvetica-Medium-Condensed.otf');
 }
-
-/* Update font-face with this hierarchy
-embedded-opentype (eot)
-woff2
-woff
-ttf
-svg */
 
 * {
   background-color: #65a2b1;
@@ -26,16 +20,20 @@ svg */
 
 h1 {
   margin-top: 0;
+  margin-bottom: 50px;
   font-family: 'Black Mango';
   font-size: 6rem;
   color: whitesmoke;
   font-weight: normal;
 }
 
-img {
+h2 {
+  margin-top: 0;
   margin-bottom: 10px;
-  height: 230px;
-  pointer-events: none;
+  font-family: 'Helvetica';
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: normal;
 }
 
 a {
@@ -71,7 +69,9 @@ input {
   padding: 10px;
   margin: 10px;
   color: #65a2b1;
-  [placeholder] { color: #65a2b1 }
+  [placeholder] {
+    color: #65a2b1;
+  }
   background-color: whitesmoke;
 }
 
@@ -83,6 +83,34 @@ button {
   border: #65a2b1 solid 2px;
   border-style: outset;
   border-radius: 10px;
+}
+
+.navbar {
+  /* display: flex; */
+  display: block;
+  top: -20px;
+  justify-content: center;
+}
+
+.navbar .navbar-link {
+  color: whitesmoke;
+  font-family: 'Black Mango';
+  font-size: 2rem;
+  /*gap: 8rem */
+}
+
+.navbar #basic-navbar-nav .me-auto {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10rem;
+}
+
+.logo {
+  margin-bottom: 10px;
+  height: 150px;
+  width: 200px;
+  pointer-events: none;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 768px) {
